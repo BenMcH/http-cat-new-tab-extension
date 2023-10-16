@@ -75,6 +75,6 @@ const statuses = [ // This is not an all-encompassing list, but is the full supp
 const randomStatus = statuses[Math.floor(Math.random() * statuses.length)]
 
 const image = document.createElement("img");
-image.src = `https://http.cat/${randomStatus}`;
+image.src = `images/${randomStatus}.jpg`;
 
 document.body.appendChild(image);
